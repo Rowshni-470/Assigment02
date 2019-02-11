@@ -1,0 +1,27 @@
+Assignment 02 – a) Develop Functional Requirements for Wilderness Weather Station.
+
+1.	The weather station system will collect weather data from instruments periodically.
+
+1.1.	Each station will measure and collect weather parameters from instruments.
+1.2.	Data of the wind speed and direction, the ground and air temperatures, the barometric pressure, and the rainfall will be measured over 24-hour period.
+1.3.	Software system will collect parameter readings periodically (for example, temperatures are measured every minute.)
+1.4.	Manage data and Perform initial data processing. For instance, Temperature measuring instrument will provide value in Voltage. The software will convert it into centigrade temperature using this formula: [(analog voltage in mV) - 500] / 10
+1.5.	Transmit collected data to data management system.
+
+
+
+2.	The data management system collects the data from all of the wilderness weather stations, carries out data processing, analysis and archives.
+
+2.1.	The software will convert collected data from sensors into understandable values using suitable formulas. 
+2.2.	The system software will be responsible creating and managing databases.
+2.3.	The process includes acquiring, validating, storing weather parameters.
+2.4.	The data is processed in a form that can be retrieved by other systems, such as weather forecasting systems.
+
+
+3.	The station maintenance system will communicate with all weather stations and monitor the system health and report back.
+
+3.1.	Establish communication over satellite link and ensure transmission of information when requested by the data collection system.
+3.2.	Store information if communication fails and maintain data locally until communication is established again.
+3.3.	Run regular diagnostic tests of the overall system, Monitor the instruments, power, and communication hardware and report faults to the management system.
+3.4.	 Manage the system power, ensuring that batteries are charged whenever the environmental conditions permit but also that generators are shut down in damaging weather conditions, such as high wind.
+3.5.	 Allow for dynamic reconfiguration where parts of the software are replaced with new versions and where backup instruments are switched into the system in the event of system failure.
