@@ -23,5 +23,5 @@ Assignment 02 – a) Develop Functional Requirements for Wilderness Weather Stat
 3.1.	Establish communication over satellite link and ensure transmission of information when requested by the data collection system.
 3.2.	Store information if communication fails and maintain data locally until communication is established again.
 3.3.	Run regular diagnostic tests of the overall system, Monitor the instruments, power, and communication hardware and report faults to the management system.
-3.4.	 Manage the system power, ensuring that batteries are charged whenever the environmental conditions permit but also that generators are shut down in damaging weather conditions, such as high wind.
-3.5.	 Allow for dynamic reconfiguration where parts of the software are replaced with new versions and where backup instruments are switched into the system in the event of system failure.
+3.4.	Manage the system power, ensuring that batteries are charged whenever the environmental conditions permit but also that generators are shut down in damaging weather conditions, such as high wind.
+3.5.	Allow for dynamic reconfiguration where parts of the software are replaced with new versions and where backup instruments are switched into the system in the event of system failure.
